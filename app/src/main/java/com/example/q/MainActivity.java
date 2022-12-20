@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 btStopWhackAMole.setClickable(true);
                 num=0;
                 score=0;
-                flag=0; //开始
+                flag=0; //开始游戏
                 tvWhackAMoleScore.setText("分数：0");
                 new MyAsyncTask().execute();
                 break;
